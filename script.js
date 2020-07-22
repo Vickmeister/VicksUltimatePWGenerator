@@ -50,3 +50,6 @@ function getPasswordOptions(){
     }
         return PasswordOptions
 }
+
+//I tried as best as I could to put a function that would be able to create a password for me using all the
+//variables listed above. Unfortunately, I could not find a way to fully execute the code to get the password generator working.
