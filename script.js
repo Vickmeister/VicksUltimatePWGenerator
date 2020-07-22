@@ -1,37 +1,12 @@
-//password generator
 function generate(){
 
-    //possible password values
-
-    var upperCase = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"] //DO THE SAME FOR THE REST OF THE VARIABLES
+    var upperCase = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
     var lowerCase = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
     var Numbers = ["1","2","3","4","5","6","7","8","9","0"]
     var specialCharacters = ["!","@","#","$","^","&","*","(",")","_","+"]
 
     var PasswordOptions= getPasswordOptions() 
     console.log(PasswordOptions)
-
-
-  //add all uppercase to total list
-  //do the same thing if use special
-  //do for loop for i is < password
-  //
-
-
-
-
-    let password = "";
-
-    //for loop to choose password characters
-// WRITE A FUNCTION THAT WILL UTILIZE MATH FOR AND MAT RANDOM IN A VARIABLE... WRITE ANOTHER FUNCTION THAT WILL FIRST OF CALL getPassWordOptions AND INSIDE OF THERE SET UP VARIABLES AS ARRAYS (PLACEHOLDER FOR DATA) THERE WILL BE A COUPLE OF IF STATEMENTS
-    
-    for i()
-
-
-    //shows password in the text box
-    document.getElementById("display").value = password;
-}
-
 
 function getPasswordOptions(){
     var length = parseInt(
@@ -65,6 +40,7 @@ function getPasswordOptions(){
         alert("must select at least one character type");
         return
     }
+
     var PasswordOptions = {
         length: length,
         hasSpecialCharacters: hasSpecialCharacters,
@@ -74,4 +50,3 @@ function getPasswordOptions(){
     }
         return PasswordOptions
 }
-
